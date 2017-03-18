@@ -57,8 +57,9 @@ opBtn4.addEventListener('click',function(event){
 myCalc.getTotal();
 showMe();
 
-// if(operant = "+"){
-// myCalc.add();}
+if(operant = "+"){
+myCalc.add(myCalc.getTotal());
+}
 console.log("total",myCalc.getTotal());
 console.log("saveMemory",myCalc.recallMemory());
 });
