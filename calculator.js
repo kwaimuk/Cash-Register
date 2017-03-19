@@ -31,7 +31,7 @@
         if(typeof x !== 'number') {
       throw new Error('I AM ERROR');
     }
-      total-=x;
+      total =x - total;
       return total;
   };
 
