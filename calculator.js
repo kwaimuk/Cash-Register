@@ -60,15 +60,20 @@
   };
   calculator.clearMemory= function(){
     memory=0;
-    return memory;
   };
+
   calculator.clear= function(){
     total=0;
-    return memory;
+    return total;
+  };
+  calculator.reset= function(){
+    total=0;
+    memory=0;
   };
 
   calculator.flush= function () {
     total=0;
+    console.log(total);
     };
 
 //public
